@@ -10,14 +10,14 @@ public class Main_menu : MonoBehaviour
     public bool isQuit;
 
 	void Start () 
-    {
+	{
 	}
 
     void OnMouseUp()
     {
         if (isStart)
         {
-            SceneManager.LoadScene("Level");
+            SceneManager.LoadScene("Level_2");
         }
 
         if (isOptions)
@@ -31,7 +31,8 @@ public class Main_menu : MonoBehaviour
         }
     } 
 
-	void Update () 
-    {
+	void Update ()
+	{
+	
 	}
 }
